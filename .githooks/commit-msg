@@ -1,0 +1,21 @@
+#!/bin/bash
+
+commit_msg_file=$1
+commit_msg=$(cat "$commit_msg_file")
+
+# Regex explicada:
+# ^\[SCA-[0-9]+\] -> Começa com [SCA- seguido de um ou mais números e fecha colchete
+# \s -> Um espaço
+# (feat|fix|chore|docs|refactor) -> Um dos tipos obrigatórios
+# : .{10,} -> Dois pontos, espaço e no mínimo 10 caracteres de descrição
+# (#in-progress|#in-review|#done)? -> Tags opcionais no final
+regex="^\[SCA-[0-9]+\] (feat|fix|chore|docs|refactor): .{10,}(\s#\S+)?$"
+
+if [[ ! $commit_msg =~ $regex ]]; then
+    echo "----------------------------------------------------------------"
+    echo "❌ ERRO DE COMMIT: Padrão de Governança DataTech não respeitado!"
+    echo "Padrão esperado: [SCA-ID] tipo: descrição mínima #tag"
+    echo "Exemplo: [SCA-101] feat: implementação do módulo de login #in-progress"
+    echo "----------------------------------------------------------------"
+    exit 1
+fi
