@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1500.0" prefWidth="1200.0" style="-fx-border-radius: 10;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="72.0" prefWidth="1200.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="40.0" layoutX="22.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Container.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="79.0" layoutY="18.0" prefHeight="30.0" prefWidth="321.0" text="Sistema de Planejamento" textFill="#0f172b">
+               <font>
+                  <Font name="Calibri Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="37.0" prefHeight="30.0" prefWidth="321.0" text="01/04/2026" textFill="#62748e">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane centerShape="false" prefHeight="233.0" prefWidth="1160.0" scaleShape="false" style="-fx-background-color: FFFFFF; -fx-border-color: E2E8F0; -fx-border-radius: 16;">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="40.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="29.0" layoutY="19.0" prefHeight="30.0" prefWidth="596.0" text="Visão Geral" textFill="#0f172b">
+               <font>
+                  <Font name="Calibri Bold" size="30.0" />
+               </font>
+            </Label>
+            <Pane layoutX="27.0" layoutY="91.0" prefHeight="120.0" prefWidth="1102.0" style="-fx-background-color: FAF5FF; -fx-border-color: E0E7FF; -fx-border-radius: 14;">
+               <children>
+                  <Label layoutX="81.0" layoutY="35.0" prefHeight="30.0" prefWidth="321.0" text="Total de Aulas Planejadas" textFill="#0f172b">
+                     <font>
+                        <Font name="Calibri Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1017.0" layoutY="31.0" prefHeight="58.0" prefWidth="51.0" text="80" textFill="#4f39f6">
+                     <font>
+                        <Font name="Calibri Bold" size="50.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1023.0" layoutY="74.0" prefHeight="30.0" prefWidth="40.0" text="aulas" textFill="#62748e">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="81.0" layoutY="50.0" prefHeight="30.0" prefWidth="321.0" text="ao longo do semestre" textFill="#62748e">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView layoutX="26.0" layoutY="34.0">
+                     <image>
+                        <Image url="@Container%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="324.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon%20(2).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="43.0" prefHeight="30.0" prefWidth="609.0" text="resumo do planejamento " textFill="#62748e">
+               <font>
+                  <Font name="Calibri Light" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane centerShape="false" prefHeight="227.0" prefWidth="1160.0" scaleShape="false" style="-fx-background-color: FFFFFF; -fx-border-color: E2E8F0; -fx-border-radius: 16;">
+         <children>
+            <MenuButton layoutX="608.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="526.0" style="-fx-background-color: F3F3F5; -fx-border-radius: 1000;" text="Filtros" textFill="#ababab">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="45.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="64.0" layoutY="75.0" prefHeight="30.0" prefWidth="99.0" text="Curso" textFill="#62748e">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <MenuButton layoutX="45.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="535.0" style="-fx-background-color: F3F3F5; -fx-border-radius: 1000;" text="Filtros" textFill="#ababab">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </MenuButton>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="612.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="631.0" layoutY="75.0" prefHeight="30.0" prefWidth="99.0" text="Disciplina" textFill="#62748e">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="16.0" prefHeight="35.0" prefWidth="497.0" text="Informações Basicas" textFill="#0f172b">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="34.0" prefHeight="30.0" prefWidth="609.0" text="Preencha as informações para gerar automatica o planejamento do semestre" textFill="#62748e">
+               <font>
+                  <Font name="Calibri Light" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="44.0" layoutY="157.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="1093.0" style="-fx-background-color: #4f39f6;" text="Gerar Planejamento de Aula" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="10.0" />
+         </VBox.margin>
+      </Pane>
+      <Pane centerShape="false" prefHeight="108.0" prefWidth="1160.0" scaleShape="false" style="-fx-background-color: FFFFFF; -fx-border-color: E2E8F0; -fx-border-radius: 16;">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="45.0" layoutY="26.0" prefHeight="30.0" prefWidth="23.0" text="aula" textFill="#ffffffb3">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="42.0" prefHeight="30.0" prefWidth="23.0" text="1" textFill="#ffffffb3">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="108.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="12.0" fitWidth="12.0" layoutX="108.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="126.0" layoutY="22.0" prefHeight="30.0" prefWidth="85.0" text="23/04/2026" textFill="#62748e">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="47.0" prefHeight="30.0" prefWidth="99.0" text="20:00 - 21:00 " textFill="#62748e">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="26.0" prefHeight="30.0" prefWidth="34.0" text="aula" textFill="#ffffff9d">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="44.0" prefHeight="30.0" prefWidth="34.0" text="1" textFill="#ffffff9d">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Label>
+            <Pane layoutX="20.0" layoutY="23.0" prefHeight="58.0" prefWidth="73.0" style="-fx-border-radius: 10;" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
