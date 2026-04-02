@@ -360,5 +360,11 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
       <td><a href="https://www.linkedin.com/in/thayssa-andrade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
   </table>
+
+<h2 style="color: #0080c0;">🖥️ Protótipo no Figma</h2>
+<a href="https://www.figma.com/make/dQJGfd3mXLoZM9VYdFrzIv/Plataforma-de-Planejamento-de-Aulas?fullscreen=1&t=4SphBk2P0XcH1GBs-1&preview-route=%2Fcriar">
+Acessar protótipo no Figma
+</a>
+
 </div>
 
