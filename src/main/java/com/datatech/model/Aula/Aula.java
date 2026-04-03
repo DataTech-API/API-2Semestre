@@ -112,10 +112,29 @@ import java.time.format.DateTimeFormatter;
 
         @Override
         public String toString() {
-            DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-            String dataFormatada = (data != null) ? data.format(formato) : "Sem data";
-            String blocoTexto = (bloco != null) ? bloco.name() : "Sem bloco";
-            return dataFormatada + " - " + blocoTexto;
+            DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+            String dataStr = (data != null) ? data.format(formato) : "00-00-0000";
+
+            String diaSemana = (data != null) ? converterDiaPortugues(data.getDayOfWeek()) : "";
+
+           //DD-MM-AAAA DIA - BLOCO - CONTEÚDO
+            return String.format("%s %s - %s - %s",
+                    dataStr,
+                    diaSemana,
+                    (getBloco() != null ? getBloco().name() : "AULA"),
+                    (getConteudo() != null ? getConteudo() : "SEM CONTEÚDO"));
+        }
+
+        private String converterDiaPortugues(java.time.DayOfWeek day) {
+            switch (day) {
+                case MONDAY: return "SEGUNDA-FEIRA";
+                case TUESDAY: return "TERÇA-FEIRA";
+                case WEDNESDAY: return "QUARTA-FEIRA";
+                case THURSDAY: return "QUINTA-FEIRA";
+                case FRIDAY: return "SEXTA-FEIRA";
+                case SATURDAY: return "SÁBADO";
+                default: return "DOMINGO";
+            }
         }
     }
 
