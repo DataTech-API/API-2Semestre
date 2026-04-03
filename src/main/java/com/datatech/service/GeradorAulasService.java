@@ -80,35 +80,3 @@ public class GeradorAulasService {
         }
     }
 }
-
-/*
- * ═══════════════════════════════════════════════
- *  COMO USAR — GeradorAulasService
- * ═══════════════════════════════════════════════
- *
- * 1. Obtenha os dados necessários (via mock ou futuramente via banco):
- *
- *      CalendarioAcademico calendario = DadosMock.obterCalendarioMock();
- *      List<Disciplina> disciplinas   = DadosMock.obterDisciplinasMock();
- *
- * 2. Instancie o serviço:
- *
- *      GeradorAulasService gerador = new GeradorAulasService();
- *
- * 3. Gere as aulas para cada disciplina:
- *
- *      for (Disciplina disciplina : disciplinas) {
- *          List<Aula> aulas = gerador.gerarAulas(
- *              disciplina,
- *              calendario.getDataInicio(),
- *              calendario.getDataFim()
- *          );
- *
- *          // Exemplo: imprimir no terminal para validar
- *          System.out.println("Disciplina: " + disciplina.getNome());
- *          for (Aula aula : aulas) {
- *              System.out.println("  " + aula); // usa o toString() de Aula: "dd/MM/yyyy - BLOCO_X"
- *          }
- *      }
- *
- */
