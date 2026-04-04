@@ -173,7 +173,7 @@ src/
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e;">
   <tr>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="href="ChecklistDodDor.md" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
     <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Estratégia de Branch</a></td>
   </tr>
   <tr>
