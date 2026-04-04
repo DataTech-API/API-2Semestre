@@ -140,7 +140,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <tr>
     <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: [16/03] a [05/04]</td>
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/SPRINT1.md", style="color: #0080c0;">Documentos</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
