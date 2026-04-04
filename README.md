@@ -5,12 +5,12 @@
 
 <hr style="border: 0.5px solid #333;">
 
-<h2 style="color: #0080c0;">🎯 Descrição do Desafio</h2>
+<h2 style="color: #0080c0;">- Descrição do Desafio</h2>
 
 <p>O desafio proposto pelo CADI envolve a reformulação da usabilidade no lançamento de planos de aula.
 A dor central reside na dificuldade de manter a sincronia entre datas, horários e conteúdos ministrados, especialmente em relação à carga horária mínima e aos feriados</p>
 
-<h2 style="color: #0080c0;">📋 Backlog do Produto</h2>
+<h2 style="color: #0080c0;">- Backlog do Produto</h2>
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e; color: white; border: 1px solid #333;">
   <tr style="background-color: #2d2d2d; color: #ffffff;">
@@ -91,13 +91,8 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <td align="center" style="padding: 10px; border: 1px solid #333;">3</td>
   </tr>
 </table>
-<div>
-<h2 style="color: #0080c0;">📅 Cronograma de Evolução</h2>
-  <div align="center">
-    <p>(EM CONSTRUÇÃO)</p>
-    </div>
 
-<h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 1</h2>
+<h2 style="color: #0080c0;">- Definition of Ready (DoR) – Sprint 1</h2>
 
 <ul>
   <li>A User Story está escrita no formato <b>Como [participante], quero [ação], para [benefício]</b>.</li>
@@ -119,7 +114,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li><b>Verificar carga horária:</b> a quantidade de aulas planejadas deve ser comparada com a carga horária da disciplina. Caso haja divergência, deve ser exibido um aviso ao professor.</li>
 </ul>
 
-<h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 1</h2>
+<h2 style="color: #0080c0;">- Definition of Done (DoD): Sprint 1</h2>
 
 <ul>
   <li>Existe uma interface funcional da funcionalidade.</li>
@@ -133,7 +128,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li>A User Story foi revisada pela equipe.</li>
 </ul>
 
-<h2 style="color: #0080c0;">🚀 Sprints Realizadas</h2>
+<h2 style="color: #0080c0;">- Sprints Realizadas</h2>
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e; color: white; border: 1px solid #333;">
   <tr style="background-color: #2d2d2d; color: #ffffff;">
@@ -143,20 +138,20 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <th style="padding: 10px; border: 1px solid #333;">Incremento (YouTube)</th>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: [Data] a [Data]</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: [16/03] a [05/04]</td>
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Docs</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
 
-<h2 style="color: #0080c0;">🛠️ Tecnologias Utilizadas</h2>
+<h2 style="color: #0080c0;">- Tecnologias Utilizadas</h2>
 
 <p align="left">
   <code>Java</code> | <code>JDBC</code> | <code>PostgreSQL</code> | <code>Maven</code>
 </p>
 
-<h2 style="color: #0080c0;">📂 Estrutura do Projeto</h2>
+<h2 style="color: #0080c0;">- Estrutura do Projeto</h2>
 
 <pre style="background-color: #2d2d2d; padding: 10px; border-radius: 5px;">
 src/
@@ -166,7 +161,7 @@ src/
 └── test/
 </pre>
 
-<h2 style="color: #0080c0;">⚙️ Como Executar e Testar</h2>
+<h2 style="color: #0080c0;">- Como Executar e Testar</h2>
 
 <ol>
   <li>Clone o repositório: <code>git clone [URL]</code></li>
@@ -174,7 +169,7 @@ src/
   <li>Execução: <code>./mvnw spring-boot:run</code></li>
 </ol>
 
-<h2 style="color: #0080c0;">📖 Documentação Adicional</h2>
+<h2 style="color: #0080c0;">- Documentação Adicional</h2>
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e;">
   <tr>
@@ -187,7 +182,7 @@ src/
   </tr>
 </table>
 
-<h2 style="color: #0080c0;">👥 Equipe</h2>
+<h2 style="color: #0080c0;">- Equipe</h2>
 
 <table>
   <tr>
@@ -234,5 +229,5 @@ src/
   </tr>
 </table>
 
-</div>
+
 
