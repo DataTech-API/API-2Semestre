@@ -162,14 +162,6 @@ src/
 └── test/
 </pre>
 
-<h2 style="color: #0080c0;">- Como Executar e Testar</h2>
-
-<ol>
-  <li>Clone o repositório: <code>git clone [URL]</code></li>
-  <li>Configuração: [Descrever passos de ambiente e/ou banco de dados]</li>
-  <li>Execução: <code>./mvnw spring-boot:run</code></li>
-</ol>
-
 <h2 style="color: #0080c0;">- Documentação Adicional</h2>
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e;">
   <tr>
