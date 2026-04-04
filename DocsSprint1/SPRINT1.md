@@ -27,7 +27,7 @@
   <li><b>Disciplina:</b> id, idCurso, nome, cargaHorariaTotal, horários</li>
   <li><b>Aula:</b> id, idDisciplina, data, dataOriginal, bloco, tipo, conteúdo, remanejada</li>
   <li><b>CalendarioAcademico:</b> dataInicio, dataFim, feriados, emendas, diasLetivos, diasNaoLetivos, diasBloqueadosProva</li>
-  <li><b>HorarioAula:</b> dia, bloco</li>
+  <li><b>HorarioAula:</b> DiasDaSemana, bloco</li>
 </ul>
 
 <h2 style="color: #0080c0;">- Mensagens</h2>
