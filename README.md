@@ -148,7 +148,8 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
 <h2 style="color: #0080c0;">- Tecnologias Utilizadas</h2>
 
 <p align="left">
-  <code>Java</code> | <code>JDBC</code> | <code>PostgreSQL</code> | <code>Maven</code>
+  <code>Java</code> | <code>JDBC</code> | <code>PostgreSQL</code> | <code>Maven</code> | <code>SceneBuilder</code> | <code>JavaFX</code>
+  | <code>IntelliJ</code> 
 </p>
 
 <h2 style="color: #0080c0;">- Estrutura do Projeto</h2>
