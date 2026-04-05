@@ -130,7 +130,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
 ## 🏗️ Arquitetura do Sistema (Modelo Lógico)
 Para visualizar a estrutura de dados e o relacionamento entre as entidades do sistema, acesse o diagrama completo no link abaixo ou veja a visualização prévia:
 
-![Diagrama de Classes](docs/assets/diagramaER.png)
+![Diagrama de Classes](docs/assets/diagramaER.PNG)
 
 <h2 style="color: #0080c0;">🚀 Sprints Realizadas</h2>
 
