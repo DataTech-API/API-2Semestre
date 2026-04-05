@@ -127,6 +127,11 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li>A User Story foi revisada pela equipe.</li>
 </ul>
 
+## 🏗️ Arquitetura do Sistema (Modelo Lógico)
+Para visualizar a estrutura de dados e o relacionamento entre as entidades do sistema, acesse o diagrama completo no link abaixo ou veja a visualização prévia:
+
+![Diagrama de Classes](docs/assets/DiagramaAPI.png)
+
 <h2 style="color: #0080c0;">🚀 Sprints Realizadas</h2>
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e; color: white; border: 1px solid #333;">
@@ -139,8 +144,8 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <tr>
     <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: 16/03 a 05/04</td>
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Vídeo</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="https://www.youtube.com/watch?v=6LpdlIZGmns" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
 
@@ -172,12 +177,12 @@ src/
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e;">
   <tr>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ChecklistDodDor.md" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/EstrategiaBranch.md" style="color: #0080c0;">Estratégia de Branch</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/ChecklistDodDor.md" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/EstrategiaBranch.md" style="color: #0080c0;">Estratégia de Branch</a></td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ManualUsuario.md" style="color: #0080c0;">Manual do Usuário</a></td>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ManualInstalacao.md" style="color: #0080c0;">Manual de Instalação</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/ManualUsuario.md" style="color: #0080c0;">Manual do Usuário</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/ManualInstalacao.md" style="color: #0080c0;">Manual de Instalação</a></td>
   </tr>
 </table>
 
