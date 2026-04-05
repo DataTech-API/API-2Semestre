@@ -91,12 +91,6 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <td align="center" style="padding: 10px; border: 1px solid #333;">3</td>
   </tr>
 </table>
-<div>
-<h2 style="color: #0080c0;">📅 Cronograma de Evolução</h2>
-  <div align="center">
-    <p>(EM CONSTRUÇÃO)</p>
-    </div>
-
 <h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 1</h2>
 
 <ul>
@@ -143,9 +137,9 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <th style="padding: 10px; border: 1px solid #333;">Incremento (YouTube)</th>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: [Data] a [Data]</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 1: 16/03 a 05/04</td>
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Docs</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
@@ -178,12 +172,12 @@ src/
 
 <table width="100%" style="border-collapse: collapse; background-color: #1e1e1e;">
   <tr>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Estratégia de Branch</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ChecklistDodDor.md" style="color: #0080c0;">Checklist de DoR e DoD</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/EstrategiaBranch.md" style="color: #0080c0;">Estratégia de Branch</a></td>
   </tr>
   <tr>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Manual do Usuário</a></td>
-    <td style="padding: 10px; border: 1px solid #333;"><a href="#" style="color: #0080c0;">Manual de Instalação</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ManualUsuario.md" style="color: #0080c0;">Manual do Usuário</a></td>
+    <td style="padding: 10px; border: 1px solid #333;"><a href="Docs/sprint1/ManualInstalacao.md" style="color: #0080c0;">Manual de Instalação</a></td>
   </tr>
 </table>
 
@@ -234,5 +228,5 @@ src/
   </tr>
 </table>
 
-</div>
+
 
