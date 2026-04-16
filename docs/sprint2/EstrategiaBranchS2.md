@@ -10,7 +10,7 @@ evitando alterações diretas na branch principal de desenvolvimento da sprint.
 <h2 style="color: #0080c0;">- Branches Utilizadas</h2>
 <ul>
   <li><b>main:</b> branch principal do projeto.</li>
-  <li><b>sprint1:</b> branch utilizada para consolidar as entregas da Sprint 1.</li>
+  <li><b>sprint1:</b> branch utilizada para consolidar as entregas da Sprint.</li>
   <li><b>branches temporárias:</b> branches criadas para cada tarefa ou ajuste específico.</li>
 </ul>
 
@@ -20,7 +20,7 @@ O nome da branch deve identificar a tarefa ou funcionalidade desenvolvida.
 </p>
 
 <ul>
-  <li>Exemplo: <code>SCA-9-documentacao-sprint1</code></li>
+  <li>Exemplo: <code>SCA-9-documentacao-sprint</code></li>
   <li>Exemplo: <code>SCA-12-planejamento-controller</code></li>
 </ul>
 
@@ -31,9 +31,9 @@ O nome da branch deve identificar a tarefa ou funcionalidade desenvolvida.
   <li>Realizar as alterações necessárias na branch temporária.</li>
   <li>Fazer commit das alterações seguindo o padrão definido pela equipe.</li>
   <li>Enviar a branch para o GitHub.</li>
-  <li>Abrir uma Pull Request da branch temporária para <code>sprint1</code>.</li>
+  <li>Abrir uma Pull Request da branch temporária para <code>sprint</code>.</li>
   <li>A Pull Request deve ser revisada por pelo menos um integrante da equipe.</li>
-  <li>Após aprovação, a branch pode ser integrada à <code>sprint1</code>.</li>
+  <li>Após aprovação, a branch pode ser integrada à <code>sprint</code>.</li>
 </ol>
 
 <h2 style="color: #0080c0;">- Revisão e Aprovação</h2>
