@@ -144,7 +144,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li>A equipe compreende a User Story.</li>
 </ul>
 
-<p><b>Regras de negócio da Sprint 1:</b></p>
+<p><b>Regras de negócio da Sprint 2:</b></p>
 <ul>
   <li>O professor deve poder editar o conteúdo e a data de aulas já planejadas.</li>
   <li>Ao editar a data de uma aula, o sistema deve validar se a nova data é permitida no calendário acadêmico.</li>
