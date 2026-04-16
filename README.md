@@ -91,7 +91,46 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <td align="center" style="padding: 10px; border: 1px solid #333;">3</td>
   </tr>
 </table>
-<h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 1</h2>
+<h2 style="color: #0080c0;">📌 Backlog da Sprint 2</h2>
+
+<p>
+  <b>Sprint 2 Goal/Meta:</b> entregar prioritariamente as User Stories 5 e 6, com foco na edição do planejamento das aulas e na validação automática de feriados e eventos acadêmicos, garantindo mais flexibilidade e consistência no plano de ensino.
+</p>
+
+<p>
+  <b>Sprint 2 Extra:</b> a User Story 7 será tratada como escopo adicional da Sprint, podendo ser desenvolvida caso a equipe conclua as entregas prioritárias dentro do prazo previsto.
+</p>
+
+<table width="100%" style="border-collapse: collapse; background-color: #1e1e1e; color: white; border: 1px solid #333;">
+  <tr style="background-color: #2d2d2d; color: #ffffff;">
+    <th style="padding: 10px; border: 1px solid #333;">Rank</th>
+    <th style="padding: 10px; border: 1px solid #333;">Prioridade</th>
+    <th style="padding: 10px; border: 1px solid #333;">User Story</th>
+    <th style="padding: 10px; border: 1px solid #333;">Estimativa</th>
+    <th style="padding: 10px; border: 1px solid #333;">Sprint</th>
+  </tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">5</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Alta</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como professor, quero editar conteúdos ou datas das aulas planejadas, para ajustar o planejamento quando houver mudanças no calendário ou na disciplina.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">13</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">6</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Média</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como professor, quero planejar minhas aulas considerando automaticamente feriados e eventos acadêmicos, para evitar marcar aulas em datas inválidas.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">8</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">7</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Média</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como coordenador, quero definir os horários das aulas da disciplina, para organizar corretamente as datas das aulas no semestre.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">8</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+</table>
+<h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 2</h2>
 
 <ul>
   <li>A User Story está escrita no formato <b>Como [participante], quero [ação], para [benefício]</b>.</li>
@@ -113,7 +152,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li><b>Verificar carga horária:</b> a quantidade de aulas planejadas deve ser comparada com a carga horária da disciplina. Caso haja divergência, deve ser exibido um aviso ao professor.</li>
 </ul>
 
-<h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 1</h2>
+<h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 2</h2>
 
 <ul>
   <li>Existe uma interface funcional da funcionalidade.</li>
@@ -146,6 +185,12 @@ Para visualizar a estrutura de dados e o relacionamento entre as entidades do si
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="https://www.youtube.com/watch?v=6LpdlIZGmns" style="color: #0080c0;">Link Vídeo</a></td>
+  </tr>
+<tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 2: 13/04 a 03/05</td>
+    <td style="padding: 10px; border: 1px solid #333;">User Stories 5, 6 e 7</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint2" style="color: #0080c0;">Documentos</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
 
