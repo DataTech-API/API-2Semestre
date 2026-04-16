@@ -53,7 +53,7 @@ como base para integração futura com a <code>main</code>.
 <h2 style="color: #0080c0;">- Observações</h2>
 <ul>
   <li>Evitar alterações diretamente na branch <code>main</code>.</li>
-  <li>Evitar alterações diretamente na branch <code>sprint1</code> sem Pull Request.</li>
+  <li>Evitar alterações diretamente na branch <code>sprint</code> sem Pull Request.</li>
   <li>Manter os nomes das branches claros e relacionados à tarefa.</li>
   <li>Garantir que a branch temporária esteja atualizada antes de abrir a Pull Request.</li>
 </ul>
