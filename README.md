@@ -146,10 +146,12 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
 
 <p><b>Regras de negócio da Sprint 1:</b></p>
 <ul>
-  <li><b>Visualizar aulas:</b> as aulas devem ser exibidas em ordem cronológica, mostrando a data e o conteúdo de cada aula. Apenas as aulas da disciplina selecionada devem ser apresentadas.</li>
-  <li><b>Distribuir conteúdos automaticamente:</b> a distribuição dos conteúdos deve considerar as datas disponíveis do semestre. Datas que coincidem com feriados ou eventos acadêmicos não podem receber aulas.</li>
-  <li><b>Registrar conteúdo da aula:</b> cada aula deve possuir um conteúdo associado. O conteúdo deve estar vinculado a uma data de aula válida.</li>
-  <li><b>Verificar carga horária:</b> a quantidade de aulas planejadas deve ser comparada com a carga horária da disciplina. Caso haja divergência, deve ser exibido um aviso ao professor.</li>
+  <li>O professor deve poder editar o conteúdo e a data de aulas já planejadas.</li>
+  <li>Ao editar a data de uma aula, o sistema deve validar se a nova data é permitida no calendário acadêmico.</li>
+  <li>Datas que coincidam com feriados, emendas ou eventos acadêmicos não podem receber aulas.</li>
+  <li>O planejamento deve ser reajustado sem perder o vínculo entre aula, conteúdo e disciplina.</li>
+  <li>O coordenador deve poder definir os horários e blocos das aulas de cada disciplina.</li>
+  <li>Os horários cadastrados devem ser utilizados para organizar corretamente as aulas no semestre.</li>
 </ul>
 
 <h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 2</h2>
@@ -158,7 +160,7 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li>Existe uma interface funcional da funcionalidade.</li>
   <li>A funcionalidade pode ser demonstrada durante a apresentação da Sprint.</li>
   <li>O código foi versionado no GitHub do projeto.</li>
-  <li>A documentação da Sprint 1 foi atualizada no repositório.</li>
+  <li>A documentação da Sprint 2 foi atualizada no repositório.</li>
   <li>Existe um esboço da interface (wireframe ou Figma) associado à User Story.</li>
   <li>A equipe consegue apresentar a solução em formato de pitch de negócio.</li>
   <li>A funcionalidade funciona mesmo sem conexão com banco de dados, podendo utilizar dados em memória.</li>
@@ -189,7 +191,7 @@ Para visualizar a estrutura de dados e o relacionamento entre as entidades do si
 <tr>
     <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 2: 13/04 a 03/05</td>
     <td style="padding: 10px; border: 1px solid #333;">User Stories 5, 6 e 7</td>
-    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint2" style="color: #0080c0;">Documentos</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint2/SPRINT2.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
