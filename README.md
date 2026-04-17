@@ -91,7 +91,46 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
     <td align="center" style="padding: 10px; border: 1px solid #333;">3</td>
   </tr>
 </table>
-<h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 1</h2>
+<h2 style="color: #0080c0;">📌 Backlog da Sprint 2</h2>
+
+<p>
+  <b>Sprint 2 Goal/Meta:</b> entregar prioritariamente as User Stories 5 e 6, com foco na edição do planejamento das aulas e na validação automática de feriados e eventos acadêmicos, garantindo mais flexibilidade e consistência no plano de ensino.
+</p>
+
+<p>
+  <b>Sprint 2 Extra:</b> a User Story 7 será tratada como escopo adicional da Sprint, podendo ser desenvolvida caso a equipe conclua as entregas prioritárias dentro do prazo previsto.
+</p>
+
+<table width="100%" style="border-collapse: collapse; background-color: #1e1e1e; color: white; border: 1px solid #333;">
+  <tr style="background-color: #2d2d2d; color: #ffffff;">
+    <th style="padding: 10px; border: 1px solid #333;">Rank</th>
+    <th style="padding: 10px; border: 1px solid #333;">Prioridade</th>
+    <th style="padding: 10px; border: 1px solid #333;">User Story</th>
+    <th style="padding: 10px; border: 1px solid #333;">Estimativa</th>
+    <th style="padding: 10px; border: 1px solid #333;">Sprint</th>
+  </tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">5</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Alta</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como professor, quero editar conteúdos ou datas das aulas planejadas, para ajustar o planejamento quando houver mudanças no calendário ou na disciplina.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">13</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">6</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Média</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como professor, quero planejar minhas aulas considerando automaticamente feriados e eventos acadêmicos, para evitar marcar aulas em datas inválidas.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">8</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">7</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Média</td>
+    <td style="padding: 10px; border: 1px solid #333;">Como coordenador, quero definir os horários das aulas da disciplina, para organizar corretamente as datas das aulas no semestre.</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">8</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">2</td>
+  </tr>
+</table>
+<h2 style="color: #0080c0;">✅ Definition of Ready (DoR) – Sprint 2</h2>
 
 <ul>
   <li>A User Story está escrita no formato <b>Como [participante], quero [ação], para [benefício]</b>.</li>
@@ -99,30 +138,28 @@ A dor central reside na dificuldade de manter a sincronia entre datas, horários
   <li>As regras de negócio da funcionalidade estão definidas.</li>
   <li>Os dados necessários para a funcionalidade foram identificados.</li>
   <li>As mensagens de confirmação, erro ou aviso foram definidas.</li>
-  <li>Existe um esboço da interface da funcionalidade (wireframe ou protótipo).</li>
   <li>A User Story possui prioridade definida no backlog.</li>
   <li>A User Story possui estimativa definida pela equipe.</li>
   <li>A equipe compreende a User Story.</li>
 </ul>
 
-<p><b>Regras de negócio da Sprint 1:</b></p>
+<p><b>Regras de negócio da Sprint 2:</b></p>
 <ul>
-  <li><b>Visualizar aulas:</b> as aulas devem ser exibidas em ordem cronológica, mostrando a data e o conteúdo de cada aula. Apenas as aulas da disciplina selecionada devem ser apresentadas.</li>
-  <li><b>Distribuir conteúdos automaticamente:</b> a distribuição dos conteúdos deve considerar as datas disponíveis do semestre. Datas que coincidem com feriados ou eventos acadêmicos não podem receber aulas.</li>
-  <li><b>Registrar conteúdo da aula:</b> cada aula deve possuir um conteúdo associado. O conteúdo deve estar vinculado a uma data de aula válida.</li>
-  <li><b>Verificar carga horária:</b> a quantidade de aulas planejadas deve ser comparada com a carga horária da disciplina. Caso haja divergência, deve ser exibido um aviso ao professor.</li>
+  <li>O professor deve poder editar o conteúdo e a data de aulas já planejadas.</li>
+  <li>Ao editar a data de uma aula, o sistema deve validar se a nova data é permitida no calendário acadêmico.</li>
+  <li>Datas que coincidam com feriados, emendas ou eventos acadêmicos não podem receber aulas.</li>
+  <li>O planejamento deve ser reajustado sem perder o vínculo entre aula, conteúdo e disciplina.</li>
+  <li>O coordenador deve poder definir os horários e blocos das aulas de cada disciplina.</li>
+  <li>Os horários cadastrados devem ser utilizados para organizar corretamente as aulas no semestre.</li>
 </ul>
 
-<h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 1</h2>
+<h2 style="color: #0080c0;">🏁 Definition of Done (DoD) – Sprint 2</h2>
 
 <ul>
   <li>Existe uma interface funcional da funcionalidade.</li>
   <li>A funcionalidade pode ser demonstrada durante a apresentação da Sprint.</li>
   <li>O código foi versionado no GitHub do projeto.</li>
-  <li>A documentação da Sprint 1 foi atualizada no repositório.</li>
-  <li>Existe um esboço da interface (wireframe ou Figma) associado à User Story.</li>
-  <li>A equipe consegue apresentar a solução em formato de pitch de negócio.</li>
-  <li>A funcionalidade funciona mesmo sem conexão com banco de dados, podendo utilizar dados em memória.</li>
+  <li>A documentação da Sprint 2 foi atualizada no repositório.</li>
   <li>Os membros da equipe testaram o projeto.</li>
   <li>A User Story foi revisada pela equipe.</li>
 </ul>
@@ -146,6 +183,12 @@ Para visualizar a estrutura de dados e o relacionamento entre as entidades do si
     <td style="padding: 10px; border: 1px solid #333;">User Stories 1, 2, 3 e 4</td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint1/SPRINT1.md" style="color: #0080c0;">Documentos</a></td>
     <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="https://www.youtube.com/watch?v=6LpdlIZGmns" style="color: #0080c0;">Link Vídeo</a></td>
+  </tr>
+<tr>
+    <td align="center" style="padding: 10px; border: 1px solid #333;">Sprint 2: 13/04 a 03/05</td>
+    <td style="padding: 10px; border: 1px solid #333;">User Stories 5, 6 e 7</td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="docs/sprint2/SPRINT2.md" style="color: #0080c0;">Documentos</a></td>
+    <td align="center" style="padding: 10px; border: 1px solid #333;"><a href="" style="color: #0080c0;">Link Vídeo</a></td>
   </tr>
 </table>
 
